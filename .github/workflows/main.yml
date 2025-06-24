@@ -23,7 +23,7 @@ jobs:
         id: calibre
         uses: calibreapp/image-actions@main
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.PAT_TOKEN }}
           compressOnly: true
           jpegQuality: "60"
           jpegProgressive: false
@@ -33,6 +33,7 @@ jobs:
         if: steps.calibre.outputs.markdown != ''
         uses: peter-evans/create-pull-request@v3
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           title: "🛠 压缩图片"
           branch-suffix: timestamp
           commit-message: "🛠 压缩图片"
