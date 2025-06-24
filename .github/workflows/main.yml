@@ -1,0 +1,10 @@
+            - name: Zip Deploy
+  # You may pin to the exact commit or the version.
+  # uses: mkyai/zip-deploy@db8f801175f9ddefbc440f36c7b05654560b8088
+  uses: mkyai/zip-deploy@v1.0.8
+  with:
+    # Deployment webhook to handle @code.zip file
+    webhook: # optional
+    # Webhook secret for request verification
+    secret: # optional
+          
