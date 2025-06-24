@@ -9,6 +9,8 @@ on:
       - "**.png"
       - "**.webp"
   workflow_dispatch:
+permissions:
+  contents: write   # 关键：允许 workflow 推送分支
 jobs:
   build:
     name: calibreapp/image-actions
