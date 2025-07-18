@@ -1,0 +1,9 @@
+截图信息：
+==============================
+系统时间: 2025-07-18 21:40:12
+操作系统: Windows 10
+设备名称: LAPTOP-DG7IU8CC
+处理器架构: AMD64
+Python版本: 3.11.3
+==============================
+截图URL: https://raw.githubusercontent.com/H2O-ME/jp/main/screenshots/LAPTOP-DG7IU8CC/screenshot_20250718_214011.png
