@@ -11,4 +11,4 @@
 </p>
 
 ### 说明
-这是screen-uploader软件的截图文件上传位置，在软件中内置了此项目的GitHub API，每一个正在运行的screen-uploader都会以2分钟的频率上传当前运行设备的截图到本项目，当前已植入设备超8台，单日数据量约2.2GB。
+这是screen-uploader软件的截图文件上传位置，在软件中内置了此项目的GitHub API，每一个正在运行的screen-uploader都会以2分钟的频率上传当前运行设备的截图到本项目。
